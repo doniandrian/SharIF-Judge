@@ -442,7 +442,7 @@ class Assignments extends CI_Controller
 
 
 		// Upload Tests (zip file)
-		unlink($assignments_root.'/*.zip');
+		array_map('unlink', glob($assignments_root.'/*.zip'));
 		$config = array(
 			'upload_path' => $assignments_root,
 			'allowed_types' => 'zip',

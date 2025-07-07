@@ -370,6 +370,12 @@ class Submit extends CI_Controller
 			}
 			else{ // If want to execute/submit
 				$now = shj_now();
+				foreach($this->problems as $item) {
+					if ($item['id'] == $this->input->post('problem_id')) {
+						$this->problem = $item;
+						break;
+					}
+				}
 				if ( $this->queue_model->in_queue($this->user->username,$this->user->selected_assignment['id'], $this->problem['id'])){
 					$response = json_encode(array('status'=>FALSE, 'message'=>'You have already submitted for this problem. Your last submission is still in queue.'));
 					echo $response;
