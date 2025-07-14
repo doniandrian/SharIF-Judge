@@ -12,6 +12,20 @@ The full documentation is at https://github.com/ifunpar/Sharif-Judge/tree/docs
 
 Download the latest release from https://github.com/ifunpar/Sharif-Judge/releases
 
+# Branches, Tags and Releases
+
+The numbering may be confusing, I apologize. However, here are some explanations:
+
+* Branches, sorted from newest to oldest:
+    - **`Version-1`** this is the **main branch**, since mjnaderi is using this naming for the main branch.
+    - `Version-1.5`, this is an older branch, containing action replay and (supposedly) PHP 8.3 compatibility
+    - `Version-1.1`, this is an even older branch, compatible up to PHP 7.4, but pretty stable
+    - `docs`, documentation branch, similar to mjnaderi's one but maybe with some adjustments
+    - Other branches are undocumented
+* Tags and releases, sorted from newest to oldest
+    - `v1.5.x-ifunpar` release of `Version-1.5` branch
+    - `v1.4.x-ifunpar` release of pre-`Version-1.1` branch. Named `1.4` because mjnaderi used that. We will no longer use mjnaderi's one.
+
 ## Features
   * Multiple user roles (admin, head instructor, instructor, student)
   * Sandboxing _(not yet for python)_
