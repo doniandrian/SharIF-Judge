@@ -2,6 +2,7 @@
 
 .git
 .idea
+.vscode
 application/config/config.php
 application/config/database.php
 application/config/secrets.php
