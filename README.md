@@ -12,7 +12,7 @@ The full documentation is at https://github.com/ifunpar/Sharif-Judge/tree/docs
 
 Download the latest release from https://github.com/ifunpar/Sharif-Judge/releases
 
-# Branches, Tags and Releases
+## Branches, Tags and Releases
 
 The numbering may be confusing, I apologize. However, here are some explanations:
 
