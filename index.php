@@ -8,7 +8,7 @@
  *
  */
 
-define('SHJ_VERSION','1.1-ifunpar');
+define('SHJ_VERSION','1.5.2');
 
 /**
  * Cloudflare adaptor.
